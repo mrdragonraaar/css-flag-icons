@@ -1,0 +1,48 @@
+Country Name;ISO 3166-1-alpha-2 code
+Ascension Island;AC
+Netherlands Antilles;AN
+African Regional Industrial Property Organization;AP
+Burma;BU
+Benelux Trademarks and Designs Office;BX
+Clipperton Island;CP
+SERBIA AND MONTENEGRO;CS
+Diego Garcia;DG
+Benin;DY
+Ceuta, Melilla;EA
+Union of Countries under the European Community Patent Convention;EF
+European Trademark Office;EM
+European Patent Organization;EP
+European Union;EU
+Eurasian Patent Organization;EV
+Estonia;EW
+Liechtenstein;FL
+France, Metropolitan;FX
+Patent Office of the Cooperation Council for the Arab States of the Gulf (GCC);GC
+International Bureau of WIPO;IB
+Canary Islands;IC
+Jamaica;JA
+Libya Fezzan;LF
+Neutral Zone;NT
+African Intellectual Property Organization;OA
+Philippines;PI
+Argentina;RA
+Bolivia;RB
+China;RC
+Haiti;RH
+Indonesia;RI
+Lebanon;RL
+Madagascar;RM
+Niger;RN
+Philippines;RP
+Finland;SF
+USSR;SU
+Tristan da Cunha;TA
+East Timor;TP
+United Kingdom;UK
+Grenada;WG
+Saint Lucia;WL
+World Intellectual Property Organization;WO
+Saint Vincent;WV
+Yugoslavia;YU
+Venezuela;YV
+Zaire;ZR
