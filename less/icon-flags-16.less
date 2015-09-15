@@ -5,54 +5,15 @@
 // ---------------------------
 
 @import "variables.less";
+@import "mixins.less";
 
 .flag {
 	position: relative;
 	display: inline-block;
-
-	&.flag-16 {
-		height: 16px;
-		width: 16px;
-
-		&.flag-ad { background-image: data-uri("../Flags/flags_iso/16/ad.png"); }
-		&.flag-ae { background-image: data-uri("../Flags/flags_iso/16/ae.png"); }
-		&.flag-af { background-image: data-uri("../Flags/flags_iso/16/af.png"); }
-		&.flag-ag { background-image: data-uri("../Flags/flags_iso/16/ag.png"); }
-		&.flag-ai { background-image: data-uri("../Flags/flags_iso/16/ai.png"); }
-		&.flag-al { background-image: data-uri("../Flags/flags_iso/16/al.png"); }
-		&.flag-am { background-image: data-uri("../Flags/flags_iso/16/am.png"); }
-		&.flag-an { background-image: data-uri("../Flags/flags_iso/16/an.png"); }
-		&.flag-ao { background-image: data-uri("../Flags/flags_iso/16/ao.png"); }
-		&.flag-aq { background-image: data-uri("../Flags/flags_iso/16/aq.png"); }
-		&.flag-ar { background-image: data-uri("../Flags/flags_iso/16/ar.png"); }
-		&.flag-as { background-image: data-uri("../Flags/flags_iso/16/as.png"); }
-		&.flag-at { background-image: data-uri("../Flags/flags_iso/16/at.png"); }
-		&.flag-au { background-image: data-uri("../Flags/flags_iso/16/au.png"); }
-		&.flag-aw { background-image: data-uri("../Flags/flags_iso/16/aw.png"); }
-		&.flag-ax { background-image: data-uri("../Flags/flags_iso/16/ax.png"); }
-		&.flag-az { background-image: data-uri("../Flags/flags_iso/16/az.png"); }
-		&.flag-ba { background-image: data-uri("../Flags/flags_iso/16/ba.png"); }
-		&.flag-bb { background-image: data-uri("../Flags/flags_iso/16/bb.png"); }
-		&.flag-bd { background-image: data-uri("../Flags/flags_iso/16/bd.png"); }
-		&.flag-be { background-image: data-uri("../Flags/flags_iso/16/be.png"); }
-		&.flag-bf { background-image: data-uri("../Flags/flags_iso/16/bf.png"); }
-		&.flag-bg { background-image: data-uri("../Flags/flags_iso/16/bg.png"); }
-		&.flag-bh { background-image: data-uri("../Flags/flags_iso/16/bh.png"); }
-		&.flag-bi { background-image: data-uri("../Flags/flags_iso/16/bi.png"); }
-		&.flag-bj { background-image: data-uri("../Flags/flags_iso/16/bj.png"); }
-		&.flag-bl { background-image: data-uri("../Flags/flags_iso/16/bl.png"); }
-		&.flag-bm { background-image: data-uri("../Flags/flags_iso/16/bm.png"); }
-		&.flag-bn { background-image: data-uri("../Flags/flags_iso/16/bn.png"); }
-		&.flag-bo { background-image: data-uri("../Flags/flags_iso/16/bo.png"); }
-		&.flag-bq { background-image: data-uri("../Flags/flags_iso/16/bq.png"); }
-		&.flag-br { background-image: data-uri("../Flags/flags_iso/16/br.png"); }
-		&.flag-bs { background-image: data-uri("../Flags/flags_iso/16/bs.png"); }
-		&.flag-bt { background-image: data-uri("../Flags/flags_iso/16/bt.png"); }
-		&.flag-bv { background-image: data-uri("../Flags/flags_iso/16/bv.png"); }
-		&.flag-bw { background-image: data-uri("../Flags/flags_iso/16/bw.png"); }
-		&.flag-by { background-image: data-uri("../Flags/flags_iso/16/by.png"); }
-		&.flag-bz { background-image: data-uri("../Flags/flags_iso/16/bz.png"); }
-	}
 }
 
+.flag-size(16);
 
+.flag-icons-iso(16);
+.flag-icons-iso-reserved(16);
+.flag-icons-noniso(16);

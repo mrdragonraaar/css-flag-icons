@@ -1,0 +1,322 @@
+//
+// Flag Icons (icondrawer.com)
+//
+// Mixins
+// ---------------------------
+
+.flag-size(@size) {
+	.flag.flag-@{size} {
+		height: unit(@size, px);
+		width: unit(@size, px);
+	}
+}
+
+.flag-path(@size) {
+	@flag-path: "@{icons-flag-base}@{size}/";
+}
+
+.flag-icon-iso(@size, @iso) {
+	.flag-icon(@size, @iso, @iso);
+}
+
+.flag-icon(@size, @label, @file) {
+	.flag-path(@size);
+
+	.flag.flag-@{size}.flag-@{label} { background-image: data-uri("@{flag-path}@{file}.png"); }
+}
+
+.flag-icons-iso(@size) {
+	.flag-icon-iso(@size, ad);
+	.flag-icon-iso(@size, ae);
+	.flag-icon-iso(@size, af);
+	.flag-icon-iso(@size, ag);
+	.flag-icon-iso(@size, ai);
+	.flag-icon-iso(@size, al);
+	.flag-icon-iso(@size, am);
+	.flag-icon-iso(@size, ao);
+	.flag-icon-iso(@size, aq);
+	.flag-icon-iso(@size, ar);
+	.flag-icon-iso(@size, as);
+	.flag-icon-iso(@size, at);
+	.flag-icon-iso(@size, au);
+	.flag-icon-iso(@size, aw);
+	.flag-icon-iso(@size, ax);
+	.flag-icon-iso(@size, az);
+	.flag-icon-iso(@size, ba);
+	.flag-icon-iso(@size, bb);
+	.flag-icon-iso(@size, bd);
+	.flag-icon-iso(@size, be);
+	.flag-icon-iso(@size, bf);
+	.flag-icon-iso(@size, bg);
+	.flag-icon-iso(@size, bh);
+	.flag-icon-iso(@size, bi);
+	.flag-icon-iso(@size, bj);
+	.flag-icon-iso(@size, bl);
+	.flag-icon-iso(@size, bm);
+	.flag-icon-iso(@size, bn);
+	.flag-icon-iso(@size, bo);
+	.flag-icon-iso(@size, bq);
+	.flag-icon-iso(@size, br);
+	.flag-icon-iso(@size, bs);
+	.flag-icon-iso(@size, bt);
+	.flag-icon-iso(@size, bv);
+	.flag-icon-iso(@size, bw);
+	.flag-icon-iso(@size, by);
+	.flag-icon-iso(@size, bz);
+	.flag-icon-iso(@size, ca);
+	.flag-icon-iso(@size, cc);
+	.flag-icon-iso(@size, cd);
+	.flag-icon-iso(@size, cf);
+	.flag-icon-iso(@size, cg);
+	.flag-icon-iso(@size, ch);
+	.flag-icon-iso(@size, ci);
+	.flag-icon-iso(@size, ck);
+	.flag-icon-iso(@size, cl);
+	.flag-icon-iso(@size, cm);
+	.flag-icon-iso(@size, cn);
+	.flag-icon-iso(@size, co);
+	.flag-icon-iso(@size, cr);
+	.flag-icon-iso(@size, cu);
+	.flag-icon-iso(@size, cv);
+	.flag-icon-iso(@size, cw);
+	.flag-icon-iso(@size, cx);
+	.flag-icon-iso(@size, cy);
+	.flag-icon-iso(@size, cz);
+	.flag-icon-iso(@size, de);
+	.flag-icon-iso(@size, dj);
+	.flag-icon-iso(@size, dk);
+	.flag-icon-iso(@size, dm);
+	.flag-icon-iso(@size, do);
+	.flag-icon-iso(@size, dz);
+	.flag-icon-iso(@size, ec);
+	.flag-icon-iso(@size, ee);
+	.flag-icon-iso(@size, eg);
+	.flag-icon-iso(@size, eh);
+	.flag-icon-iso(@size, er);
+	.flag-icon-iso(@size, es);
+	.flag-icon-iso(@size, et);
+	.flag-icon-iso(@size, fi);
+	.flag-icon-iso(@size, fj);
+	.flag-icon-iso(@size, fk);
+	.flag-icon-iso(@size, fm);
+	.flag-icon-iso(@size, fo);
+	.flag-icon-iso(@size, fr);
+	.flag-icon-iso(@size, ga);
+	.flag-icon-iso(@size, gb);
+	.flag-icon-iso(@size, gd);
+	.flag-icon-iso(@size, ge);
+	.flag-icon-iso(@size, gf);
+	.flag-icon-iso(@size, gg);
+	.flag-icon-iso(@size, gh);
+	.flag-icon-iso(@size, gi);
+	.flag-icon-iso(@size, gl);
+	.flag-icon-iso(@size, gm);
+	.flag-icon-iso(@size, gn);
+	.flag-icon-iso(@size, gp);
+	.flag-icon-iso(@size, gq);
+	.flag-icon-iso(@size, gr);
+	.flag-icon-iso(@size, gs);
+	.flag-icon-iso(@size, gt);
+	.flag-icon-iso(@size, gu);
+	.flag-icon-iso(@size, gw);
+	.flag-icon-iso(@size, gy);
+	.flag-icon-iso(@size, hk);
+	.flag-icon-iso(@size, hm);
+	.flag-icon-iso(@size, hn);
+	.flag-icon-iso(@size, hr);
+	.flag-icon-iso(@size, ht);
+	.flag-icon-iso(@size, hu);
+	.flag-icon-iso(@size, id);
+	.flag-icon-iso(@size, ie);
+	.flag-icon-iso(@size, il);
+	.flag-icon-iso(@size, im);
+	.flag-icon-iso(@size, in);
+	.flag-icon-iso(@size, io);
+	.flag-icon-iso(@size, iq);
+	.flag-icon-iso(@size, ir);
+	.flag-icon-iso(@size, is);
+	.flag-icon-iso(@size, it);
+	.flag-icon-iso(@size, je);
+	.flag-icon-iso(@size, jm);
+	.flag-icon-iso(@size, jo);
+	.flag-icon-iso(@size, jp);
+	.flag-icon-iso(@size, ke);
+	.flag-icon-iso(@size, kg);
+	.flag-icon-iso(@size, kh);
+	.flag-icon-iso(@size, ki);
+	.flag-icon-iso(@size, km);
+	.flag-icon-iso(@size, kn);
+	.flag-icon-iso(@size, kp);
+	.flag-icon-iso(@size, kr);
+	.flag-icon-iso(@size, kw);
+	.flag-icon-iso(@size, ky);
+	.flag-icon-iso(@size, kz);
+	.flag-icon-iso(@size, la);
+	.flag-icon-iso(@size, lb);
+	.flag-icon-iso(@size, lc);
+	.flag-icon-iso(@size, li);
+	.flag-icon-iso(@size, lk);
+	.flag-icon-iso(@size, lr);
+	.flag-icon-iso(@size, ls);
+	.flag-icon-iso(@size, lt);
+	.flag-icon-iso(@size, lu);
+	.flag-icon-iso(@size, lv);
+	.flag-icon-iso(@size, ly);
+	.flag-icon-iso(@size, ma);
+	.flag-icon-iso(@size, mc);
+	.flag-icon-iso(@size, md);
+	.flag-icon-iso(@size, me);
+	.flag-icon-iso(@size, mf);
+	.flag-icon-iso(@size, mg);
+	.flag-icon-iso(@size, mh);
+	.flag-icon-iso(@size, mk);
+	.flag-icon-iso(@size, ml);
+	.flag-icon-iso(@size, mm);
+	.flag-icon-iso(@size, mn);
+	.flag-icon-iso(@size, mo);
+	.flag-icon-iso(@size, mp);
+	.flag-icon-iso(@size, mq);
+	.flag-icon-iso(@size, mr);
+	.flag-icon-iso(@size, ms);
+	.flag-icon-iso(@size, mt);
+	.flag-icon-iso(@size, mu);
+	.flag-icon-iso(@size, mv);
+	.flag-icon-iso(@size, mw);
+	.flag-icon-iso(@size, mx);
+	.flag-icon-iso(@size, my);
+	.flag-icon-iso(@size, mz);
+	.flag-icon-iso(@size, na);
+	.flag-icon-iso(@size, nc);
+	.flag-icon-iso(@size, ne);
+	.flag-icon-iso(@size, nf);
+	.flag-icon-iso(@size, ng);
+	.flag-icon-iso(@size, ni);
+	.flag-icon-iso(@size, nl);
+	.flag-icon-iso(@size, no);
+	.flag-icon-iso(@size, np);
+	.flag-icon-iso(@size, nr);
+	.flag-icon-iso(@size, nu);
+	.flag-icon-iso(@size, nz);
+	.flag-icon-iso(@size, om);
+	.flag-icon-iso(@size, pa);
+	.flag-icon-iso(@size, pe);
+	.flag-icon-iso(@size, pf);
+	.flag-icon-iso(@size, pg);
+	.flag-icon-iso(@size, ph);
+	.flag-icon-iso(@size, pk);
+	.flag-icon-iso(@size, pl);
+	.flag-icon-iso(@size, pm);
+	.flag-icon-iso(@size, pn);
+	.flag-icon-iso(@size, pr);
+	.flag-icon-iso(@size, ps);
+	.flag-icon-iso(@size, pt);
+	.flag-icon-iso(@size, pw);
+	.flag-icon-iso(@size, py);
+	.flag-icon-iso(@size, qa);
+	.flag-icon-iso(@size, re);
+	.flag-icon-iso(@size, ro);
+	.flag-icon-iso(@size, rs);
+	.flag-icon-iso(@size, ru);
+	.flag-icon-iso(@size, rw);
+	.flag-icon-iso(@size, sa);
+	.flag-icon-iso(@size, sb);
+	.flag-icon-iso(@size, sc);
+	.flag-icon-iso(@size, sd);
+	.flag-icon-iso(@size, se);
+	.flag-icon-iso(@size, sg);
+	.flag-icon-iso(@size, sh);
+	.flag-icon-iso(@size, si);
+	.flag-icon-iso(@size, sj);
+	.flag-icon-iso(@size, sk);
+	.flag-icon-iso(@size, sl);
+	.flag-icon-iso(@size, sm);
+	.flag-icon-iso(@size, sn);
+	.flag-icon-iso(@size, so);
+	.flag-icon-iso(@size, sr);
+	.flag-icon-iso(@size, ss);
+	.flag-icon-iso(@size, st);
+	.flag-icon-iso(@size, sv);
+	.flag-icon-iso(@size, sx);
+	.flag-icon-iso(@size, sy);
+	.flag-icon-iso(@size, sz);
+	.flag-icon-iso(@size, tc);
+	.flag-icon-iso(@size, td);
+	.flag-icon-iso(@size, tf);
+	.flag-icon-iso(@size, tg);
+	.flag-icon-iso(@size, th);
+	.flag-icon-iso(@size, tj);
+	.flag-icon-iso(@size, tk);
+	.flag-icon-iso(@size, tl);
+	.flag-icon-iso(@size, tm);
+	.flag-icon-iso(@size, tn);
+	.flag-icon-iso(@size, to);
+	.flag-icon-iso(@size, tr);
+	.flag-icon-iso(@size, tt);
+	.flag-icon-iso(@size, tv);
+	.flag-icon-iso(@size, tw);
+	.flag-icon-iso(@size, tz);
+	.flag-icon-iso(@size, ua);
+	.flag-icon-iso(@size, ug);
+	.flag-icon-iso(@size, um);
+	.flag-icon-iso(@size, us);
+	.flag-icon-iso(@size, uy);
+	.flag-icon-iso(@size, uz);
+	.flag-icon-iso(@size, va);
+	.flag-icon-iso(@size, vc);
+	.flag-icon-iso(@size, ve);
+	.flag-icon-iso(@size, vg);
+	.flag-icon-iso(@size, vi);
+	.flag-icon-iso(@size, vn);
+	.flag-icon-iso(@size, vu);
+	.flag-icon-iso(@size, wf);
+	.flag-icon-iso(@size, ws);
+	.flag-icon-iso(@size, ye);
+	.flag-icon-iso(@size, yt);
+	.flag-icon-iso(@size, za);
+	.flag-icon-iso(@size, zm);
+	.flag-icon-iso(@size, zw);
+}
+
+.flag-icons-iso-reserved(@size) {
+	.flag-icon-iso(@size, an);
+}
+
+
+.flag-icons-noniso(@size) {
+	.flag-icon(@size, asean, ~"_ASEAN");
+	.flag-icon(@size, african-union, ~"_African Union");
+	.flag-icon(@size, alderney, ~"_Alderney");
+	.flag-icon(@size, arab-league, ~"_Arab League");
+	.flag-icon(@size, basque-country, ~"_Basque Country");
+	.flag-icon(@size, caricom, ~"_CARICOM");
+	.flag-icon(@size, cis, ~"_CIS");
+	.flag-icon(@size, catalonia, ~"_Catalonia");
+	.flag-icon(@size, commonwealth, ~"_Commonwealth");
+	.flag-icon(@size, england, ~"_England");
+	.flag-icon(@size, european-union, ~"_European Union");
+	.flag-icon(@size, fao, ~"_FAO");
+	.flag-icon(@size, galicia, ~"_Galicia");
+	.flag-icon(@size, iaea, ~"_IAEA");
+	.flag-icon(@size, iho, ~"_IHO");
+	.flag-icon(@size, islamic-conference, ~"_Islamic Conference");
+	.flag-icon(@size, kosovo, ~"_Kosovo");
+	.flag-icon(@size, nato, ~"_NATO");
+	.flag-icon(@size, northern-cyprus, ~"_Northern Cyprus");
+	.flag-icon(@size, northern-ireland, ~"_Northern Ireland");
+	.flag-icon(@size, oas, ~"_OAS");
+	.flag-icon(@size, oecd, ~"_OECD");
+	.flag-icon(@size, opec, ~"_OPEC");
+	.flag-icon(@size, olympic-movement, ~"_Olimpic Movement");
+	.flag-icon(@size, quebec, ~"_Quebec");
+	.flag-icon(@size, red-cross, ~"_Red Cross");
+	.flag-icon(@size, scotland, ~"_Scotland");
+	.flag-icon(@size, somaliland, ~"_Somaliland");
+	.flag-icon(@size, tristan-da-cunha, ~"_Tristan-da-Cunha");
+	.flag-icon(@size, unesco, ~"_UNESCO");
+	.flag-icon(@size, unicef, ~"_UNICEF");
+	.flag-icon(@size, united-nations, ~"_United Nations");
+	.flag-icon(@size, who, ~"_WHO");
+	.flag-icon(@size, wto, ~"_WTO");
+	.flag-icon(@size, wales, ~"_Wales");
+}
+
